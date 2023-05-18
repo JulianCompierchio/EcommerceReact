@@ -11,19 +11,19 @@ const Footer = () => {
             <div class="content">
               <h2>Cuentale a un amigo</h2>
               <div class="social-icons">
-                <a href="#"><img src="images\logos\logo_FB.png" alt="Facebook"></a>
-                <a href="#"><img src="images\logos\logo_IG.png" alt="Instagram"></a>
-                <a href="#"><img src="images\logos\logo_TW.png" alt="Twitter"></a>
-                <a href="#"><img src="images\logos\logo_WAp.png" alt="Whats App"></a>
-                <a href="#"><img src="images\logos\logo-MS.png" alt="Messenger"></a>
-                <a href="#"><img src="images\logos\logo-TT.png" alt="Tik-Tok"></a>
+                <a href="#"><img src="https://ibb.co/t2pDvpk" alt="Facebook"></a>
+                <a href="#"><img src="https://ibb.co/kyNsQWc" alt="Instagram"></a>
+                <a href="#"><img src="https://ibb.co/brCyDph" alt="Twitter"></a>
+                <a href="#"><img src="https://ibb.co/3CGbYjd" alt="Whats App"></a>
+                <a href="#"><img src="https://ibb.co/M23dksn" alt="Messenger"></a>
+                <a href="#"><img src="https://ibb.co/xFdDq1k" alt="Tik-Tok"></a>
               </div>
             </div>
           </div>
 
           <div class="container-menu">
             <div class="logo">
-              <img src="images\logos\logo.jpg" alt="Logo">
+              <img src="https://ibb.co/xSTtZXX" alt="Logo">
             </div>
             <nav class="menu">
               <ul>
