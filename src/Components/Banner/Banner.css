@@ -1,14 +1,15 @@
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} 
 /* CUSTOM PROPERTIES */
 :root{
     --first-color: #2b1907;
     --second-color:#703a13;
     --color-text: #ffffff ;
-    --firt-font: 'Open Sans', sans-serif;
+    --firt-font: 'Quicksand', sans-serif;
     
 } 
 /* reset */

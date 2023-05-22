@@ -1,7 +1,7 @@
 import React from 'react'
 import './Banner.css'
 const Banner = () => {
-  return (
+  return (  
   <div className='walpeper'>
 
     <div className="container">
