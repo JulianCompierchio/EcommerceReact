@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* CUSTOM PROPERTIES */
+:root{
+    --first-color: #422506;
+    --second-color:#331B0A;
+    --color-text: #ffffff ;
+    --firt-font: 'Open Sans', sans-serif;
+    
+} 
+/* reset */
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: var(--firt-font);
+    overflow-x: hidden;
+   
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*MAIN CONTENT SLOGAN DE LA PAGINA */
+.walpeper{
+    height: 100vh;
+    width: 100vw;
+background-image:url(https://th.bing.com/th/id/R.a81f49968d97e7b584c9379d1a3e3b47?rik=mhs7lqIDUPjaHw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-right: 25%;
+}
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1.8fr 0.7fr; 
+    grid-template-rows: 1fr; 
+    gap: 2px 0px; 
+    grid-template-areas: 
+      ". ."; 
+  }
+.slogan{
+    padding-top: 15%; 
+    
+}
+.slogan > .h2title{
+    color: var(--second-color);
+    font-family:  var(--firt-font);
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow:
+        0 0 20px var(--second-color),
+        0 0 20px var(--second-color) ,
+        0 0 21px var(--second-color),
+        0 0 20px #634741,
+        0 0 20px #634741,
+        0 0 20px #634741,
+       
+
+}
+.slogan span{
+    color: var(--second-color);}
+    
+  
+  
+.slogan h2{
+    margin-top: 8%;
+}
+/*---------------------BOTON REUTILIZABLE------------------*/
+
+.btn-sabores{
+    margin-top: 70%;
+    background-color: var(--first-color);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    list-style: 0;
+    font-family: var(--firt-font);
+    color: var(--color-text);
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+}
+.btn-sabores:hover{
+    background-color: var(--second-color);
+    transition: all 0.3s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*.****** HOME******.*/
+    .container{
+             display: grid;
+            grid-template-columns: 1.8fr;
+            grid-template-rows: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            gap: 2px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "."
+              ".";
+              height: 300px;
+              display: flex;
+              flex-direction: column;
+            
+          
+          
+    }
+    .slogan{
+        margin-top: 40%;
+        margin-left: 10px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-sabores{
+        margin-top: 30px;
+        padding-left: 20px;
+        
+    }
+}
+   
