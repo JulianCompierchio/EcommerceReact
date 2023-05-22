@@ -27,6 +27,32 @@
 .App-link {
   color: #61dafb;
 }
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.img{
+  float: right;
+  display: flex;
+  
+}
+.card-img-right {
+  width: 350px;
+  height: auto;
+  justify-content: flex-end;
+}
+
+
+
+.card-text {
+  flex: 1; 
+}
+
+.card-text h3 {
+  margin-top: 10; /* elimina el margen superior del título */
+}
+
 
 @keyframes App-logo-spin {
   from {

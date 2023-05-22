@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Carrusel from "./Carrusel";
+import "./Carousel.css";
 
 const Carousel = () => {
   return (
-    <div>Carousel</div>
-  )
-}
+    <div className="carrusel">
+      <h1>Visita nuestra tienda</h1>
+      <Carrusel />
+    </div>
+  );
+};
 
-export default Carousel
+export default Carousel;
