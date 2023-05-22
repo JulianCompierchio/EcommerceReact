@@ -9,7 +9,7 @@ const Banner = () => {
             <h2 className="h2title">Apoya a tus Artesanos Locales</h2>
             
             <h2 className="h2title">
-               Descubre las Marcas <span>y sus Historias</span> 
+               <span>Descubre las Marcas y sus Historias</span> 
             </h2>
         </div>
         <button className="btn-sabores"><span>Nuestros sabores </span> </button>

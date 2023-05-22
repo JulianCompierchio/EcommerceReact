@@ -5,8 +5,8 @@
 }
 /* CUSTOM PROPERTIES */
 :root{
-    --first-color: #422506;
-    --second-color:#331B0A;
+    --first-color: #2b1907;
+    --second-color:#703a13;
     --color-text: #ffffff ;
     --firt-font: 'Open Sans', sans-serif;
     
@@ -39,13 +39,14 @@ background-image:url(https://th.bing.com/th/id/R.a81f49968d97e7b584c9379d1a3e3b4
     padding-right: 25%;
 }
 .container {
-    display: grid; 
+   /*  display: grid; 
     grid-auto-columns: 1fr; 
-    grid-template-columns: 1.8fr 0.7fr; 
-    grid-template-rows: 1fr; 
+    grid-template-rows: 1fr 1fr; 
     gap: 2px 0px; 
     grid-template-areas: 
-      ". ."; 
+      ". .";   
+    */ 
+      
   }
 .slogan{
     padding-top: 15%; 
@@ -67,20 +68,23 @@ background-image:url(https://th.bing.com/th/id/R.a81f49968d97e7b584c9379d1a3e3b4
 
 }
 .slogan span{
-    color: var(--second-color);}
+    color:rgb(58, 5, 5);}
     
   
   
 .slogan h2{
-    margin-top: 8%;
+    margin-top: 2%;
 }
 /*---------------------BOTON REUTILIZABLE------------------*/
 
 .btn-sabores{
-    margin-top: 70%;
+   margin-top: 3%;
+    
+    
+    
     background-color: var(--first-color);
     padding: 1rem;
-    border-radius: 5rem;
+    border-radius: 20px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -90,7 +94,7 @@ background-image:url(https://th.bing.com/th/id/R.a81f49968d97e7b584c9379d1a3e3b4
     color: var(--color-text);
     text-transform: uppercase;
     width: 300px;
-    height: 100px;
+    height: 90px;
 }
 .btn-sabores:hover{
     background-color: var(--second-color);
