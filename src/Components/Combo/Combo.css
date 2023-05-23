@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap);
+
+.combo {
+    padding: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-image: linear-gradient(white,#F25c05);
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .combo-text {
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  h3 {
+    color: #F25c05;
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+    margin-left: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+.btn-combo{    
+        background-color: #f25c05;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      
+    }  
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1.1rem;
+    border-radius: 0.2rem;
+   
+} 
+
+@media (max-width: 768px) {
+  .combo {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+    margin-left: 0.5rem;
+  }
+  h4 {
+    font-size: 16px;
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .btn-combo {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+ h6 {
+    font-size: 17px;
+    margin-top: -0.3rem;
+    margin-right: 2px;
+  }
+}
+
+

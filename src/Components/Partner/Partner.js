@@ -1,8 +1,16 @@
-import React from 'react'
+import { Button } from 'bootstrap';
+import './Partner.css';
+
 
 const Partner = () => {
   return (
-    <div>Partner</div>
+    <>
+    <div className='partner'>
+      <h3 className='partner-titulo'>Nuestro Charity Partner, Bakery House</h3>
+      <img className='partner-img' src="/img/logoCupcake.png" alt="logo-panaderia" />
+      <button className='btn-partner'>Conocé Bakery House</button>         
+    </div>
+    </>
   )
 }
 
