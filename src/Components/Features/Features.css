@@ -1,0 +1,113 @@
+
+
+
+.feature{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+    background-image: linear-gradient(white, #D99152);      
+    font-size: 0.5rem;
+    color:black;  
+    grid-auto-rows: minmax(200px,auto); 
+   
+}
+
+.feature-title{
+    text-align:center;
+    align-items: center; 
+    font-weight: 800;
+    font-size: 1.5rem;
+
+    
+}
+.feature-subt{
+    line-height: 1; 
+    margin-top: 1rem;   
+    margin-right: 1rem; 
+    font-weight: 700; 
+    font-size: 1.1rem;
+    margin-left: 2rem;     
+}
+.feature-item{ 
+    margin-right: 1.5rem;
+    list-style: none;
+    text-align:justify ;
+    font-weight: 600;
+    font-size: 1rem;
+  
+}
+.btn-feature{     
+        height: 2rem;
+        width: 12rem;
+        border-radius: 0.3rem;
+        border: none;
+        box-shadow: 3px 3px  black;
+        color:white;
+        background-color: #F25C05;
+        font-size: 1rem;
+        padding: 0.2rem;
+        margin-top: 2rem;
+}
+.feature-imagen{
+    width: 100%;
+    height:80%;
+   
+}
+.icon-feature{
+        color: #F25C05;
+ } 
+@media(min-width:768px){
+    .feature-imagen{
+        width:70%;
+        height: 90%;
+        margin-left: 5rem;       
+    }
+   
+    .feature-title{
+        font-size:1.5rem;
+        }
+    .feature-subt{
+        font-size: 1.3rem ;
+        }
+    .feature-item{
+        font-size: 1rem;
+        }
+    .btn-feature{     
+        height: 2rem;
+        width: 12rem;
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:1024px){
+    .feature{
+        grid-template-columns:repeat(2,2fr);     
+       
+        }
+    .feature-imagen{       
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 90%;
+        height: 80%;
+       
+        }
+    .feature-title{
+        font-size: 2rem;
+        }
+    .feature-subt{
+        font-size: 1.3rem;
+        text-align: justify;
+        margin-left: 2rem;       
+        padding-bottom: 1.5rem;
+        }
+    .feature-item{
+        font-size: 1.1rem;
+        }
+    .btn-feature{     
+        height: 2rem;
+        width: 14rem;
+        font-size: 1.1rem;
+        }
+    }
+
