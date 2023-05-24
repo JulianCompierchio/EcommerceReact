@@ -1,0 +1,28 @@
+.partner{
+    background-image: url(../Assets/fondoPartner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.partner-titulo{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+.partner-img{
+    width: 15rem;
+}
+.btn-partner{
+    margin-top: 1rem;
+    background-color: #F25C05;
+    color: white ;
+    width: 16rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px black;
+    border: none;
+}
