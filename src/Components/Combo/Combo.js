@@ -12,7 +12,7 @@ const Combo = () => {
       <article className="combo">
         <img src={cafe} alt="combo-img" className="combo-imagen" />
 
-        <div class="texto">
+        <div className="texto">
           <h3>{comboTitle}</h3>
           <h4>{subTitle}</h4>
           <Combotext />
