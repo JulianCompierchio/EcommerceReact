@@ -13,7 +13,7 @@ const Carrusel = () => {
   };
 
   return (
-    <container>
+    
       <Slider {...settings}>
         <div>
           <img
@@ -86,7 +86,7 @@ const Carrusel = () => {
           />
         </div>
       </Slider>
-    </container>
+   
   );
 };
 

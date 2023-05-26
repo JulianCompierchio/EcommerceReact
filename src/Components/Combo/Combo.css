@@ -45,9 +45,9 @@
 
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-left: 1.1rem;
+    /* margin-left: 1.1rem; */
     border-radius: 0.2rem;
    
 } 
@@ -56,15 +56,13 @@ img {
   .combo {
     grid-template-columns: 1fr;
   }
-}
-@media (max-width: 768px) {
+
   img {
     max-width: 100%;
     height: auto;
     margin-left: 0;
   }
-}
-@media (max-width: 768px) {
+
   h3 {
     font-size: 18px;
     margin-left: 0.5rem;
