@@ -15,18 +15,18 @@ const Footer = () => {
             <div className="content">
               <h2>Cuentale a un amigo</h2>
               <div className="social-icons">
-                <a href="#"><img src="images\logos\logo_FB.png" alt="Facebook" /></a>
-                <a href="#"><img src="images\logos\logo_IG.png" alt="Instagram" /></a>
-                <a href="#"><img src="images\logos\logo_TW.png" alt="Twitter" /></a>
-                <a href="#"><img src="images\logos\logo_WAp.png" alt="Whats App" /></a>
-                <a href="#"><img src="images\logos\logo-MS.png" alt="Messenger" /></a>
-                <a href="#"><img src="images\logos\logo-TT.png" alt="Tik-Tok" /></a>
+                <a href="#"><img src="https://images2.imgbox.com/56/1e/4OLTv6zu_o.png" alt="Facebook" /></a>
+                <a href="#"><img src="ihttps://images2.imgbox.com/62/88/GcDqQAkT_o.png" alt="Instagram" /></a>
+                <a href="#"><img src="https://images2.imgbox.com/0d/48/2dLdlKVG_o.png" alt="Twitter" /></a>
+                <a href="#"><img src="https://images2.imgbox.com/a9/61/oJjbp6i5_o.png" alt="Whats App" /></a>
+                <a href="#"><img src="https://images2.imgbox.com/aa/1c/jpJR5jKn_o.png" alt="Messenger" /></a>
+                <a href="#"><img src="https://images2.imgbox.com/87/f2/aY116FZt_o.png" alt="Tik-Tok" /></a>
               </div>
             </div>
           </div>
           <div className="container-menu">
             <div className="logo">
-              <img src="images\logos\logo.jpg" alt="Logo" />
+              <img src="https://images2.imgbox.com/ca/8f/jSxvOTKE_o.jpg" alt="Logo" />
             </div>
             <nav className="menu">
               <ul>
