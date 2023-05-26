@@ -1,5 +1,3 @@
-
-
 .combo {
     padding: 2;
     display: grid;
@@ -7,7 +5,6 @@
     grid-gap: 20px;
     background-image: linear-gradient(white,#F25c05);
     color: black;
-    font-family: 'Quicksand', sans-serif;
 }
 .texto {
     display: flex;
@@ -47,22 +44,14 @@
 img {
     width: 100%;
     height: auto;
-    /* margin-left: 1.1rem; */
-    border-radius: 0.2rem;
-   
+    border-radius: 0.2rem;   
 } 
 
 @media (max-width: 768px) {
   .combo {
     grid-template-columns: 1fr;
   }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-left: 0;
-  }
-
+  
   h3 {
     font-size: 18px;
     margin-left: 0.5rem;
@@ -72,16 +61,20 @@ img {
     margin-left: 0.7rem;
     margin-bottom: 1rem;
   }
-  .btn-combo {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
 
  h6 {
     font-size: 17px;
     margin-top: -0.3rem;
     margin-right: 2px;
   }
-}
+  
+  .btn-combo {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 
-
+  img {
+    width: 100%;
+    height: auto;
+  }
+} 
