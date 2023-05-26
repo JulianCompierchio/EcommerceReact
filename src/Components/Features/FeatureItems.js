@@ -32,7 +32,7 @@ const FeatureItems = () => {
         <li className='feature-item'
         key={index}>       
         <p><BsCheckCircleFill className="icon-feature" />
-       {item.text}</p>       
+        {item.text}</p>       
         </li>
         )}
         <button className='btn-feature'>Nuestros Productos</button>

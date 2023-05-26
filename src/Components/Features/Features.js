@@ -24,7 +24,7 @@ const Features = () => {
           <FeatureItems />
       </div> 
       <div>
-         <img src = {FeatureImagen} alt='imagen-cafe' className='feature-imagen'/>
+        <img src = {FeatureImagen} alt='imagen-cafe' className='feature-imagen'/>
       </div> 
     </section>     
     </>

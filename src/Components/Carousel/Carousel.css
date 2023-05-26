@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap);
 
 .carrusel {
     background-image: linear-gradient(#F25c05, white);
@@ -18,8 +17,7 @@ h1 {
 
 @media (max-width: 768px) {
     .img {
-        width: 100%;
-       
+        width: 100%;      
     }
 
     .carrousel {

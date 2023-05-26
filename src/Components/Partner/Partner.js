@@ -1,6 +1,4 @@
-import { Button } from 'bootstrap';
 import './Partner.css';
-
 
 const Partner = () => {
   return (
