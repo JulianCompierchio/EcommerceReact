@@ -5,7 +5,6 @@
     grid-gap: 20px;
     background-image: linear-gradient(white,#F25c05);
     color: black;
-    font-family: 'Quicksand', sans-serif;
 }
 .texto {
     display: flex;
