@@ -1,4 +1,4 @@
-/* .container {
+.container {
     background-image: url('https://ibb.co/rQbbDJ3');
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,6 +114,5 @@
     .menu ul li:hover > ul {
       display: block;
     }
-  } */
-
+} 
  
