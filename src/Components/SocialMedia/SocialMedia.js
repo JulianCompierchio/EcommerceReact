@@ -5,16 +5,16 @@ const SocialMedia = () => {
   return (
     <div className='container-fluid contenedor'>
       <div className="row">
-        <h2>Cuentale a un amigo</h2>
-          <div className="col-12 d-inline-flex align-items-center justify-content-center social-icons ">
-            <a href="#"><img src="https://images2.imgbox.com/56/1e/4OLTv6zu_o.png" alt="Facebook" /></a>
-            <a href="#"><img src="https://images2.imgbox.com/62/88/GcDqQAkT_o.png" alt="Instagram" /></a>
-            <a href="#"><img src="https://images2.imgbox.com/0d/48/2dLdlKVG_o.png" alt="Twitter" /></a>
-            <a href="#"><img src="https://images2.imgbox.com/a9/61/oJjbp6i5_o.png" alt="Whats App" /></a>
-            <a href="#"><img src="https://images2.imgbox.com/aa/1c/jpJR5jKn_o.png" alt="Messenger" /></a>
-            <a href="#"><img src="https://images2.imgbox.com/87/f2/aY116FZt_o.png" alt="Tik-Tok" /></a>
+        <h2 className='amigo'>Cuentale a un amigo</h2>
+          <div className="col-12 d-inline-flex justify-content-center social-icons">
+            <img src="https://images2.imgbox.com/7a/d6/oU3v8Lcf_o.png" alt="Facebook"/>
+            <img src="https://images2.imgbox.com/2c/08/ebIMPWIu_o.png" alt="Instagram"/>
+            <img src="https://images2.imgbox.com/cb/db/8Och4elE_o.png" alt="Twitter"/>
+            <img src="https://images2.imgbox.com/26/21/cm3YTwvd_o.png" alt="WhatsApp"/>
+            <img src="https://images2.imgbox.com/36/a1/NOb1wyGb_o.png" alt="Messenger"/>
+            <img src="https://images2.imgbox.com/96/e0/Sb4DzyRg_o.png" alt="Tik-Tok"/>
           </div>
-      </div>
+      </div> 
     </div>
   )
 }

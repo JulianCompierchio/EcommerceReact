@@ -2,11 +2,13 @@
   margin-top: 40px;
   justify-content: space-around;
 }  
-img {
+
+.logo {
   width: 120px;
   height: 120px;
   margin-top: 20px;
 }
+
 li {
   margin-bottom: 20px;
 }
@@ -15,8 +17,8 @@ li {
     .menu {
       font-size: 12px;
     }
-    img {
+    .logo {
       height: 80px;
       width: 80px;
     }
-}    
+}     

@@ -1,10 +1,14 @@
+.slider{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .carrusel {
     background-image: linear-gradient(#F25c05, white);
 }
 
 .img {
-    width: 300px;
-    height: 252px;
+    width: 120px;
+    height: 120px;
 }
 
 h1 {
@@ -45,14 +49,19 @@ h1 {
   
 
 
-@media only screen and (max-width: 480px) { 
-  
-    .img {
-        width: 100%;      
-    }
-
-    .carrousel {
-        margin-bottom: 3px;
+@media only screen and (min-width: 768px) {  
+  .img {
+      width: 200px;
+      height: 200px;
     }
     
+    .carrousel {
+      margin-bottom: 3px;
+    }
+  }
+@media only screen and (min-width: 992px) { 
+  .img {
+    width: 250px;
+    height: 250px;      
+  }
 }

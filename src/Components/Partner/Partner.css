@@ -1,5 +1,5 @@
 .partner{
-    background-image: url(../Assets/fondoPartner.jpg);
+    background-image: url('../Assets/fondoPartner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
