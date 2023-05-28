@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+.productos {
+    background-color: #593825;
+    align-content:flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titulo{
+    background-color: #593825;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    color: white;
+    margin: 0%;
+    padding-top: 50px;
+}
+.ofertas{
+    font-size: 20px;
+    background-color: #593825;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    color: white;
+    margin: 0%;
+}
+.ofertas:hover{
+    transition: 0.8s;
+    font-size: 30px;
+    color:#f25c05 ;
+}
