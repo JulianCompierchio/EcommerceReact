@@ -1,11 +1,14 @@
 import Btn from './Btn.js';
 import './Cards.css';
 
+
 const Cards = (props) => {
+
+
   return (
     <figure className="cards">
       <div className='contenedor'>
-        <img src= {require(`./imagen cards/${props.card.imagen}.jpg`)} alt="cafe" />
+        <img className='tarjetas' src= {require(`./imagen cards/${props.card.imagen}.jpg`)} alt="cafe" />
       </div>
       <figcaption className='texto'>
         <h1 className='nombre'> {props.card.nombre}</h1>

@@ -6,12 +6,12 @@ const Products = (props) => {
 
   return (
     <div className='venta'>
-       <h1 className='titulo'> PRODUCTOS </h1>
-       <p className='ofertas'> Ofertas Especiales!</p>
+      <h1 className='titulo'> PRODUCTOS </h1>
+      <p className='ofertas'> Ofertas Especiales!</p>
       <section className='productos'>
-         {
-           props.data.map(item => <Cards key={item.id} card={item}/>)
-         }
+        {
+          props.data.map(item => <Cards key={item.id} card={item}/>)
+        }
       </section>
     </div>
   )

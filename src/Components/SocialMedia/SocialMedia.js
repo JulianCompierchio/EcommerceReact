@@ -3,7 +3,7 @@ import './SocialMedia.css'
 
 const SocialMedia = () => {
   return (
-    <div className='container-fluid contenedor'>
+    <div className='container-fluid social-contenedor'>
       <div className="row">
         <h2 className='amigo'>Cuentale a un amigo</h2>
           <div className="col-12 d-inline-flex justify-content-center social-icons">
