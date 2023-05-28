@@ -1,18 +1,19 @@
-import React, { useContext } from 'react';
-import Button from 'react-bootstrap/Button'
-import {CounterContext} from '../../Context/CounterContext'
+import React from 'react';
+import Cards from '../Cards/Cards.js';
+import './Products.css';
 
-const Products = () => {
-
-  const {incrementarContador} = useContext(CounterContext);
+const Products = (props) => {
 
   return (
-    <div>
-      Products
-      <Button onClick={incrementarContador}>
-        +
-      </Button>
-      </div>
+    <div className='venta'>
+      <h1 className='titulo'> PRODUCTOS </h1>
+      <p className='ofertas'> Ofertas Especiales!</p>
+      <section className='productos'>
+        {
+          props.data.map(item => <Cards key={item.id} card={item}/>)
+        }
+      </section>
+    </div>
   )
 }
 
