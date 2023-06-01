@@ -12,7 +12,7 @@ const ShoppingCart = () => {
     <div>
       <Button variant='outline-dark'className ='shopping-cart-button-style d-flex justify-content-center align-items-center rounded-circle'>
         <Image className ='shopping-cart-style'src={ShoppingCartIcon}/>
-          <strong className='counter-style d-flex align-items-center justify-content-center'>{contador}</strong>
+          <div className='counter-style d-flex align-items-center justify-content-center'>{contador}</div>
         </Button>
     </div>
   )

@@ -25,17 +25,16 @@
 @media (min-width : 992px){
     .shopping-cart-button-style
     {
-        height: 55px;
-        width: 55px;
+        height: 45px;
+        width: 45px;
     }
     .shopping-cart-style
     {
-        height: 50px;
+        height: 40px;
         width: auto;
     }
-    .counter-style
-    {
-        font-size: 16px;
-        transform: translate(-16px,-17px);
+    .counter-style {
+        font-size: 14px;
+        transform: translate(-13px,-12px);
     }
 }

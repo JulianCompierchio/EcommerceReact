@@ -4,7 +4,7 @@ import cafe from "../Combo/img/cafe.jpg";
 import "./Combo.css";
 
 const comboTitle = "Sorprende a tus amigos";
-const subTitle = "Preparando café en tu hogar";
+const subTitle = "preparando café de especialidad en tu hogar!";
 
 const Combo = () => {
   return (

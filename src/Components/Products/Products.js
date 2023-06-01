@@ -6,7 +6,7 @@ const Products = (props) => {
 
   return (
     <div className='venta'>
-      <h1 className='titulo'> PRODUCTOS </h1>
+      <h1 className='titulo'> Nuestros productos </h1>
       <p className='ofertas'> Ofertas Especiales!</p>
       <section className='productos'>
         {

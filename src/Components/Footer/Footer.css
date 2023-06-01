@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .menu {
   font-size: 12px;
   flex-wrap: wrap;
@@ -21,5 +22,35 @@
     
     li {
       margin-bottom: 20px;
+=======
+  .menu {
+    font-size: 12px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .contenedor-menu {
+    margin-top: 20px;
+  }
+@media screen and (min-width: 768px) {  
+    .menu {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      justify-content: space-around;
+      padding-right: 30px;
+    }  
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin-top: 30px;
+    }
+    li {
+      font-size: 0.8rem;
+      text-align: left;
+      margin-bottom: 5px;
+>>>>>>> 0ea1a9a018cba7ab0d54d37df236a3d94f9d9c31
     }
 }     

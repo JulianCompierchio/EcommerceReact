@@ -6,7 +6,7 @@ const Partner = () => {
     <div className='partner'>
       <h3 className='partner-titulo'>Nuestro Charity Partner, Bakery House</h3>
       <img className='partner-img' src="/img/logoCupcake.png" alt="logo-panaderia" />
-      <button className='btn-partner'>Conocé Bakery House</button>         
+      <button id='btn-partner'>Conocé Bakery House</button>         
     </div>
     </>
   )
