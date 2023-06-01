@@ -1,24 +1,25 @@
 .menu {
-  margin-top: 40px;
-  justify-content: space-around;
-}  
-
+  font-size: 12px;
+  flex-wrap: wrap;
+}
 .logo {
-  width: 120px;
-  height: 120px;
-  margin-top: 20px;
+  height: 80px;
+  width: 80px;
 }
 
-li {
-  margin-bottom: 20px;
-}
-
-  @media screen and (max-width: 768px) {  
+  @media screen and (min-width: 768px) {  
     .menu {
-      font-size: 12px;
-    }
+      margin-top: 40px;
+      justify-content: space-around;
+    }  
+    
     .logo {
-      height: 80px;
-      width: 80px;
+      width: 120px;
+      height: 120px;
+      margin-top: 20px;
+    }
+    
+    li {
+      margin-bottom: 20px;
     }
 }     
