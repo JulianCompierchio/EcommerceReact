@@ -18,23 +18,20 @@ const Header = () => {
       <header className='container-fluid header-style'>
         <div className='row'>
           <div className='col-1'>
+            {/* <Image className='logo-style d-inline-flex align-items-center justify-content-center' src={require('./Images/Logo1.png')}/> */}
             <Image className='logo-style d-inline-flex align-items-center justify-content-center' src={CoffeeMachine}/>
           </div>           
           {screen < 992 ? (
             <div className='col-6 d-inline-flex menu-style'> 
             <Dropdown>
             <Dropdown.Toggle className = 'd-inline-flex align-items-center dropdown-style' variant='outline-white' id="dropdown-basic">
-            <strong>
               Menú
-            </strong>
             </Dropdown.Toggle>
             <Dropdown.Menu className='dropdown-menu-style'>
               <Dropdown.Item className='d-flex align-items-center dropdown-item-style'>                
                 <details>
                   <summary>
-                    <strong>
                       Categorias 
-                    </strong>
                   </summary>
                 </details>
               </Dropdown.Item>
@@ -42,9 +39,7 @@ const Header = () => {
               <Dropdown.Item className='d-flex align-items-center dropdown-item-style'>
                 <details>
                   <summary>
-                    <strong>
                       Locales 
-                    </strong>
                   </summary>
                 </details>
               </Dropdown.Item>
@@ -52,23 +47,17 @@ const Header = () => {
               <Dropdown.Item className='d-flex align-items-center dropdown-item-style'>
                 <details>
                   <summary>
-                    <strong>
                       Paquetes y Regalos 
-                    </strong>
                   </summary>
                 </details>
               </Dropdown.Item>
               <Dropdown.Divider/>
               <Dropdown.Item className='d-flex align-items-center dropdown-item-style'>
-                <strong>
                   Nuestras Marcas 
-                </strong> 
               </Dropdown.Item>
               <Dropdown.Divider/>
               <Dropdown.Item className='d-flex align-items-center dropdown-item-style'>
-                <strong>
                   Sobre Nosotros 
-                </strong> 
               </Dropdown.Item>
             </Dropdown.Menu>       
           </Dropdown>       
@@ -112,7 +101,7 @@ const Header = () => {
           ) : (<div className='col-2 d-inline-flex align-items-center icons-container-style'>
                 <Button variant='outline-dark'className='search-avatar-buttons-style d-flex align-items-center justify-content-center rounded-circle'><Image className='search-avatar-style' src={SearchIcon}/></Button>            
                 <Button variant='outline-dark'className='search-avatar-buttons-style d-flex align-items-center justify-content-center rounded-circle'><Image className='search-avatar-style' src={Avatar}/></Button>   
-                <ShoppingCart/>
+                <ShoppingCart className= "carro-suma"/>
               </div>)}                       
         </div>
       </header>        

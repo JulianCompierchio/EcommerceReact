@@ -3,18 +3,16 @@ import './Cards.css';
 
 
 const Cards = (props) => {
-
-
   return (
     <figure className="cards">
-      <div className='contenedor'>
+      <div className='contenedor-card'>
         <img className='tarjetas' src= {require(`./imagen cards/${props.card.imagen}.jpg`)} alt="cafe" />
       </div>
-      <figcaption className='texto'>
-        <h1 className='nombre'> {props.card.nombre}</h1>
-        <p>{props.card.precio}</p>
+      <figcaption className='texto-tarjetas'>
+        <h1 className='nombre-card'> {props.card.nombre}</h1>
+        <p className='precio-product'>{props.card.precio}</p>
       </figcaption>
-      <Btn/>
+      <Btn item={props.card}/>
     </figure>
   )
 }

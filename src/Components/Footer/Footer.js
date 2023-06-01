@@ -6,31 +6,34 @@ const Footer = () => {
   return (
     <header className ='container-fluid'>    
       <div className="row contenedor-menu">
-        <div className="col-2">
+      <div className="col-2">
           <img className='logo'src={logo} alt="Logo"/>
+          {/* <img className='logo'src={require('./Images/Logo1.png')} alt="Logo"/> */}
         </div>
         <nav className="col-10 d-inline-flex menu">
           <ul>
             <li><strong>Ocasiones</strong></li>
-            <li>Trabajando desde casa</li>
+            <li>Trabajando </li>
             <li>Desayuno</li>
             <li>Vida vegana</li>
           </ul>
           <ul>
-            <li><strong>Todas las categorías</strong></li>
+            <li><strong>Categorías</strong></li>
             <li>Desayuno</li>
             <li>Saludables</li>
             <li>Para golosos</li>                  
           </ul>
           <ul>
-            <li><strong>Regalos</strong></li>
-            <li>Cafeteras sensacionales</li>
-            <li>Sensaciones dulces</li>
-            <li>Sabores Locales</li>
+            <li><strong>Marcas</strong></li>
+            <li>Bodum</li>
+            <li>Ruffo</li>
+            <li>Resolute</li>
           </ul>
-              <li><strong>Nuestras marcas</strong></li>
-          <ul>
-              <li><strong>Sobre nosotros</strong></li>
+          <ul> 
+            <li><strong>Sobre nosotros</strong></li>
+            <li>Nuestra historia</li>
+            <li>Fotos</li>
+            <li>Extras</li>
           </ul>
         </nav>
       </div>

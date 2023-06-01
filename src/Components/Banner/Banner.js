@@ -3,16 +3,12 @@ import './Banner.css'
 
 const Banner = () => {
   return (  
-  <div className='walpeper'>
-    <div className="container">
+  <div className='d-flex container-fluid container-slogan'>
         <div className="slogan">
-            <h2 className="h2title">Apoya a tus Artesanos Locales</h2>           
-            <h2 className="h2title">
-              <span>Descubre las Marcas y sus Historias</span> 
-            </h2>
+            <h2 className="artesanos">Apoyá a los Artesanos locales!</h2>           
+            <h2 className="artesanos"> <span>Descubrí las marcas y sus historias...</span></h2>
         </div>
-        <button className="btn-sabores"><span>Nuestros sabores </span> </button>
-    </div>
+        <button className="btn-sabores"> Nosotros </button>
   </div>
   ) 
 }
