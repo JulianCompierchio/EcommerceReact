@@ -23,6 +23,7 @@ const Btn = (props) => {
         </Modal.Header>
         <Modal.Body>  
           Desea agregar este producto a su carrito?
+          {props.item.nombre}
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

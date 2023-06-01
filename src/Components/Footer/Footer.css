@@ -1,24 +1,30 @@
-.menu {
-  margin-top: 40px;
-  justify-content: space-around;
-}  
-
-.logo {
-  width: 120px;
-  height: 120px;
-  margin-top: 20px;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
-  @media screen and (max-width: 768px) {  
+  .menu {
+    font-size: 12px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .contenedor-menu {
+    margin-top: 20px;
+  }
+@media screen and (min-width: 768px) {  
     .menu {
-      font-size: 12px;
-    }
+      margin-top: 40px;
+      margin-bottom: 20px;
+      justify-content: space-around;
+      padding-right: 30px;
+    }  
     .logo {
-      height: 80px;
-      width: 80px;
+      width: 100px;
+      height: 100px;
+      margin-top: 30px;
+    }
+    li {
+      font-size: 0.8rem;
+      text-align: left;
+      margin-bottom: 5px;
     }
 }     

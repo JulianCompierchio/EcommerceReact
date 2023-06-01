@@ -1,78 +1,91 @@
-.combo {
-    padding: 2;
+  .combo {
+    background-image: linear-gradient(#d5beb0, #D99152);    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    background-image: linear-gradient(white,#F25c05);
     color: black;
-}
-.texto {
+  }
+  .texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 2rem;
   }
-
-  .combo-text {
+  .texto-combo {
+    margin-bottom: 0.6rem;
     list-style: none;
     font-size: 1rem;
+    font-weight: 100;
   }
-
   h3 {
     color: #F25c05;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
     margin-left: 1rem;
   }
-
   h4 {
-    font-size: 2rem;
-    margin-left: 1.3rem;
+    color: #F25c05;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
   }
+  h6 {
+    color:black;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+  }
 
-.btn-combo{    
-        background-color: #f25c05;
-        color: white;
-        padding: 11px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 16px;
-      
-    }  
-
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.2rem;   
+  .btn-combo{
+    margin-top: 10%;    
+    background-color: #f25c05;
+    padding: 0,5rem;
+    border-radius: 10px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+    list-style: 0;
+    font-size: 0.8rem;
+    color: var(--color-text);
+    width: 120px;
+    height: 40px;
+  }
+  .btn-combo:hover{
+    background-color: var(--second-color);
+    transition: all 0.5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+  img {
+    width: auto;
+    height: 100%; 
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .combo {
     grid-template-columns: 1fr;
   }
-  
   h3 {
     font-size: 18px;
-    margin-left: 0.5rem;
+    margin-right: 2px;
   }
   h4 {
     font-size: 16px;
-    margin-left: 0.7rem;
+    margin-right: 2px;
     margin-bottom: 1rem;
   }
-
- h6 {
-    font-size: 17px;
+  h6 {
+    font-size: 12px;
     margin-top: -0.3rem;
     margin-right: 2px;
   }
-  
   .btn-combo {
-    font-size: 14px;
+    margin-top: 3%;
+    font-size: 10px;
     padding: 8px 16px;
   }
-
   img {
     width: 100%;
     height: auto;
