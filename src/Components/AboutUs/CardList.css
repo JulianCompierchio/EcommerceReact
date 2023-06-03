@@ -1,0 +1,34 @@
+.container-cardlista{
+     display: flex;
+     justify-content: center;
+}
+
+
+
+@media (min-width: 440px) and (max-width: 1154px) {
+       /* Estilos que se aplicarán a tabletas y pantallas medianas */
+
+     .container-cardlista {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 10px; /* Espacio entre las cartas */
+          
+      
+
+     }
+   }
+
+
+   @media (max-width: 430px) {
+     /* Estilos que se aplicarán a dispositivos móviles o pantallas estrechas */
+     .container-cardlista {
+         display: flex;
+         flex-direction: column;  
+        margin-left: 5%;
+     
+     } 
+
+   }
+
+
+   
