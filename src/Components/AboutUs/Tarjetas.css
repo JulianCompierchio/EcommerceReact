@@ -1,15 +1,7 @@
 .cardsAbout-us{
-    border: 5px;
-    width: 250px;
-    
+    height: 270px;
+    width: 200px;
     border-radius: 15px;
-    background-color: #e4ae80;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    text-align: center;
-    margin: 10px;
     transition: 0.3s;
     cursor:pointer;
 }
@@ -17,27 +9,33 @@
     transform:translateY(-0.5rem);
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5)!important;
 } 
-.texto-tarjetas{
-    text-align: center;
+.contenedor-tarjetas{
+  text-align: left;
+  padding: 20px 25px 25px 20px;
+}
+.parrafo-tarjetas{
+    font-size: 14px;
+    font-weight: 300;
+}
+.titulo-tarjetas{
+  margin-left: 0px;
+  text-align: left;
+  font-size: 18px;
 }
 /* Estilos para la vista tablet*/
 
 @media (min-width: 440px) and (max-width: 1154px ) {
-    
     
     .cardsAbout-us {
       width: 95%; /* Ajusta el ancho*/
     }
   }
 
-
-    /* Estilos que se aplicarán a dispositivos móviles o pantallas estrechas */
+  /* Estilos que se aplicarán a dispositivos móviles o pantallas estrechas */
 
   @media (max-width:440px ) { 
     .cardsAbout-us{
-       width: 95%;
+    width: 95%;
     }
-    
-
   }
   
