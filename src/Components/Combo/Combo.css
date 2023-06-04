@@ -80,6 +80,7 @@
     font-size: 12px;
     margin-top: -0.3rem;
     margin-right: 2px;
+    width: 400;
   }
   .btn-combo {
     margin-top: 3%;
@@ -91,3 +92,8 @@
     height: auto;
   }
 } 
+@media (max-width: 1300px){
+  h6 {
+  font-size: 16px;
+}
+}

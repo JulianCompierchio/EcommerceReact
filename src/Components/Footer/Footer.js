@@ -7,8 +7,9 @@ const Footer = () => {
     <header className ='container-fluid'>    
       <div className="row contenedor-menu">
       <div className="col-2">
-          <img className='logo'src={logo} alt="Logo"/>
-          {/* <img className='logo'src={require('./Images/Logo1.png')} alt="Logo"/> */}
+          {/* <img className='logo'src={logo} alt="Logo"/> */}
+          <img className='logo1'src={require('./Images/Logo1.png')} alt="Logo"/>
+          {/* <img className='logo3'src={require('./Images/3.png')} alt="Logo"/> */}
         </div>
         <nav className="col-10 d-inline-flex menu">
           <ul>
