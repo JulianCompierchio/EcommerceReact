@@ -21,15 +21,18 @@ const Btn = (props) => {
         <Modal.Header closeButton>
           <Modal.Title> Confirmar Compra </Modal.Title>
         </Modal.Header>
-        <Modal.Body>  
+        <Modal.Body className='modal-body d-flex'>  
           Desea agregar este producto a su carrito?
-          {props.item.nombre}
+          <img className='modal-images' src= {require(`./imagen cards/${props.item.imagen}.jpg`)} alt="cafe" />
+          Producto: {props.item.nombre}
+          <br></br>
+          Precio: {props.item.precio}
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Cancelar
           </Button>
-          <Button variant="primary" onClick= { () => {
+          <Button variant="primary" className = "accept-button"onClick= { () => {
             const funcion1 = handleClose;
             const funcion2 = incrementarContador;
             

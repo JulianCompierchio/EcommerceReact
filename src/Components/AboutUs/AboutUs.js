@@ -26,7 +26,7 @@ const cardsDB = [
 const AboutUs = () => {
   return (
     <div className='div_container_section'>
-      <h2 className='h2title_section'> Por qué elegir la calidad  premium de nuestros productos </h2>
+      <h2 className='h2title_section'> ¿Por qué elegir la calidad  premium de nuestros productos?</h2>
       <>
       <CardList
       data= {cardsDB}
