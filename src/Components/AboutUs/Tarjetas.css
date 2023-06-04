@@ -1,0 +1,41 @@
+.cardsAbout-us{
+    height: 270px;
+    width: 200px;
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.cardsAbout-us:hover{
+    transform:translateY(-0.5rem);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5)!important;
+} 
+.contenedor-tarjetas{
+  text-align: left;
+  padding: 20px 25px 25px 20px;
+}
+.parrafo-tarjetas{
+    font-size: 14px;
+    font-weight: 300;
+}
+.titulo-tarjetas{
+  margin-left: 0px;
+  text-align: left;
+  font-size: 18px;
+}
+/* Estilos para la vista tablet*/
+
+@media (min-width: 440px) and (max-width: 1154px ) {
+    
+    .cardsAbout-us {
+      width: 95%; /* Ajusta el ancho*/
+    }
+  }
+
+  /* Estilos que se aplicarán a dispositivos móviles o pantallas estrechas */
+
+  @media (max-width:440px ) { 
+    .cardsAbout-us{
+    width: 95%;
+    }
+  }
+  
