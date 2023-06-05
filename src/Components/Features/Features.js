@@ -1,6 +1,6 @@
  import './Features.css';
  import FeatureItems from './FeatureItems';
- import FeatureImagen from '../Assets/cafe2.jpg';
+ import FeatureImagen from '../Assets/cafeFeature.jpg';
 
  const featureTitulo = " Descubre el mundo del café";
  const featureSubtitulo = "Nuestra misión es ofrecer a nuestros clientes una experiencia excepcional en el mundo del café, proporcionando productos de alta calidad y un servicio personalizado."

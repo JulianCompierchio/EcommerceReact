@@ -17,7 +17,7 @@ const Carrusel = () => {
         <div className="img2">
           <img
             className="img"
-            src="https://i.pinimg.com/originals/47/3c/09/473c0981c7a802906a0f38e06059ae32.png"
+            src="https://images.dunelm.com/30791857.jpg?$standardplayerdefault$&img404=noimagedefault"
             alt="cafetera francesa con aza "
           />
         </div>
@@ -31,57 +31,57 @@ const Carrusel = () => {
         <div className="img2">
           <img
             className="img"
-            src="https://http2.mlstatic.com/D_NQ_NP_639851-MLA31624026779_072019-O.jpg"
-            alt="cafetera italiana negra"
+            src="https://i.ebayimg.com/images/g/gsIAAOSwnR5j~2nk/s-l500.jpg"
+            alt="cafetera doble"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbrinP_ku740wJ1LhSWZUEARVYMo-_4tkW4g&usqp=CAU"
-            alt="cafetera francesa"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcaGp-BK6ncBrJl_Wk-cNd5qNYsHCWqhssaWq2Lm8czu0vG1oyHcLaKeryaTw2DeCcnU&usqp=CAU"
+            alt="cafetera vidrio"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://d2r9epyceweg5n.cloudfront.net/stores/111/620/products/51-d4cfd034a151b337a216443550810948-640-0.png"
-            alt="cafetera express doble"
+            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/130/674/products/cafe-360-granos1-3e1953a309fbef0e2016370020666710-640-0.webp"
+            alt="cafe verde"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtSBH9EbUljyjAiDHEla3dTlLo_7TALAIeg&usqp=CAU"
+            src="https://www.ikea.com/gb/en/images/products/gladelig-mug-grey__0800258_pe767830_s5.jpg?f=xl"
             alt="taza"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://http2.mlstatic.com/D_NQ_NP_898476-MLA69638834680_052023-O.webp"
+            src="https://www.modobarista.com/product_images/o/534/combo_delter_y_catuai__97659_zoom.jpg"
             alt="cafetera filtro"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://http2.mlstatic.com/D_NQ_NP_706769-MLA54195258289_032023-O.webp"
+            src="https://www.jugarijugar.com/23405-large_default/molinillo-para-cafe.jpg"
             alt="molinillo de café"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://www.dekano.pe/wp-content/uploads/2020/09/dekano-8-300x300.jpg"
-            alt="cafetera presion"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyEeftIngxnKyQYXY2kBnNcl95zdb7LEULQA&usqp=CAU"
+            alt="cafetera negra"
           />
         </div>
         <div className="img2">
           <img
             className="img"
-            src="https://carrefourar.vtexassets.com/arquivos/ids/162461-800-auto?v=637467661969600000&width=800&height=auto&aspect=true"
-            alt="cafetera de capsula"
+            src="https://ruffocoffee.com/wp-content/uploads/2023/04/Mas-fotos-productos-web-2023-04-11T154151.566.png"
+            alt="cafe ruffo"
           />
         </div>
       </Slider>

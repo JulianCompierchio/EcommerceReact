@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './Images/CoffeeMachine.svg'
 import './Footer.css'
 
 const Footer = () => {
@@ -7,13 +6,12 @@ const Footer = () => {
     <header className ='container-fluid'>    
       <div className="row contenedor-menu">
       <div className="col-2">
-          <img className='logo'src={logo} alt="Logo"/>
-          {/* <img className='logo'src={require('./Images/Logo1.png')} alt="Logo"/> */}
+          <img className='logo1'src={require('./Images/Logo1.png')} alt="Logo"/>
         </div>
         <nav className="col-10 d-inline-flex menu">
           <ul>
             <li><strong>Ocasiones</strong></li>
-            <li>Trabajando </li>
+            <li>Trabajo en casa</li>
             <li>Desayuno</li>
             <li>Vida vegana</li>
           </ul>
@@ -29,7 +27,7 @@ const Footer = () => {
             <li>Ruffo</li>
             <li>Resolute</li>
           </ul>
-          <ul> 
+          <ul>
             <li><strong>Sobre nosotros</strong></li>
             <li>Nuestra historia</li>
             <li>Fotos</li>

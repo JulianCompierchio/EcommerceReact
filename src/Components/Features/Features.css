@@ -1,5 +1,4 @@
 .feature{
-    padding: 2rem;
     display: grid;
     grid-template-columns:repeat(1fr); 
     gap:1rem;
@@ -8,6 +7,7 @@
     grid-auto-rows: minmax(200px,auto);    
 }
 .feature-title{
+    margin-top: 20px;
     margin-left: 2rem; 
     text-align:left;
     align-items:center; 
@@ -26,7 +26,7 @@
 .feature-item{ 
     list-style: none;
     text-align:left;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 12px; 
 }
 .btn-feature{     
@@ -38,7 +38,6 @@
     text-decoration: none;
     text-align: center;
     font-weight:300;
-    font-family: 'Poppins', sans-serif;
     font-size: 0.7rem;
     color: white;
     width: 120px;
@@ -64,14 +63,15 @@
         grid-template-columns:repeat(2,2fr);     
         }
     .feature-imagen{       
-        margin-top: 8%;
+        margin: 8% 0% 8% 0%;
         padding-left: 2rem;
-        width: 100%;
+        width: 90%;
         height: auto;
         }
     .feature-title{
         text-align: center;
         font-size: 2rem;
+        margin-top: 80px;
         }
     .feature-subt{
         font-size: 1.3rem;
@@ -91,10 +91,15 @@
         text-decoration: none;
         text-align: center;
         font-weight:300;
-        font-family: 'Poppins', sans-serif;
         font-size: 0.7rem;
         color: white;
         width: 120px;
         height: 30px;
     }
+}
+
+@media(min-width:1300px){
+    .feature-item{
+        font-size: 16px;
+        }
 }

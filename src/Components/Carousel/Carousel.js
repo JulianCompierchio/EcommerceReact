@@ -6,7 +6,7 @@ import "./Carousel.css";
 const Carousel = () => {
   return (
     <div className="carrusel">
-      <h1>Visita nuestra tienda</h1>
+      <h1>Visitá nuestra tienda</h1>
       <Carrusel />
     </div>
   );

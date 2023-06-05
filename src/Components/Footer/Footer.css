@@ -1,14 +1,16 @@
+  .conteiner-fluid{
+    background-color:  rgb(233, 226, 226) ;
+  }
   .menu {
     font-size: 12px;
     flex-wrap: wrap;
     text-align: left;
-  }
-  .logo {
-    height: 80px;
-    width: 80px;
-  }
-  .contenedor-menu {
     margin-top: 20px;
+  }
+  .logo1 {
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
   }
 @media screen and (min-width: 768px) {  
     .menu {
@@ -17,10 +19,10 @@
       justify-content: space-around;
       padding-right: 30px;
     }  
-    .logo {
-      width: 100px;
-      height: 100px;
+    .logo1 {
       margin-top: 30px;
+      width: 100px;
+      height: auto
     }
     li {
       font-size: 0.8rem;
