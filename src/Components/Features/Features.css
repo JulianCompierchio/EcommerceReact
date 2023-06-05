@@ -78,10 +78,14 @@
         text-align: center;
         margin-left: 2rem;       
         padding-bottom: 1.5rem;
+        font-weight: 400;
         }
     .feature-item{
         font-size: 13px;
         }
+    .icon-feature{
+        font-size: 0.8rem;
+    }
     .btn-feature{     
         margin-top: 3%;    
         background-color: #F25C05;
