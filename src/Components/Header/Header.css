@@ -3,6 +3,7 @@
         line-height: 80px;
     }
     .logo-style {
+        margin-top: 10px;
         height: 80px;
         width: auto;
     }
@@ -53,7 +54,6 @@
     }
     .logo-style {
         margin-left: 25px;
-        margin-top: 10px;
         margin-bottom: 10px;
         height: 90px;
         width: auto;
