@@ -3,7 +3,7 @@
         line-height: 80px;
     }
     .logo-style {
-        height: 90px;
+        height: 80px;
         width: auto;
     }
     .icons-container-style {
@@ -23,7 +23,7 @@
         justify-content: space-around;
         color: #593825;
         font-size: 0.9rem;
-        font-weight: 300;
+        font-weight: 400;
         margin-top: 7px;
     }
     .dropdown-style {
@@ -52,6 +52,9 @@
         line-height: 40px;
     }
     .logo-style {
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         height: 90px;
         width: auto;
     }
@@ -64,6 +67,6 @@
         width: auto; 
     }
     .menu-style {
-        margin-top: 23px;
+        margin-top: 35px;
     }
 }   

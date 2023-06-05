@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button'
 import Image from 'react-bootstrap/Image'
 import Dropdown from 'react-bootstrap/Dropdown';
 import './Header.css'
-import CoffeeMachine from './Images/CoffeeMachine.svg' 
 import SearchIcon from './Images/SearchIcon.svg'
 import Avatar from './Images/Avatar.png'
 
@@ -18,8 +17,7 @@ const Header = () => {
       <header className='container-fluid header-style'>
         <div className='row'>
           <div className='col-1'>
-            {/* <Image className='logo-style d-inline-flex align-items-center justify-content-center' src={require('./Images/Logo1.png')}/> */}
-            <Image className='logo-style d-inline-flex align-items-center justify-content-center' src={CoffeeMachine}/>
+            <Image className='logo-style d-inline-flex align-items-center justify-content-center' src={require('./Images/Logo1.png')}/>
           </div>           
           {screen < 992 ? (
             <div className='col-6 d-inline-flex menu-style'> 

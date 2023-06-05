@@ -26,3 +26,8 @@
     border-width: 1px;
     border-color: #f25c05;
 }
+.accept-button:hover{
+    background-color: #ce4e03;
+    border-width: 1px;
+    border-color: #f25c05;
+}

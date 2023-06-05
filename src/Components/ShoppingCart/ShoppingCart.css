@@ -16,10 +16,11 @@
 .counter-style
 {
     font-size: 12px;
+    font-weight: 500;
     position: absolute;
     bottom: 0;
     right: 0;
-    transform: translate(-12px,-10px);
+    transform: translate(-12px,-11px);
 }
 
 @media (min-width : 992px){
@@ -35,6 +36,6 @@
     }
     .counter-style {
         font-size: 14px;
-        transform: translate(-13px,-12px);
+        transform: translate(-14px,-12px);
     }
 }

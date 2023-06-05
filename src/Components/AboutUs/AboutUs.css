@@ -1,5 +1,6 @@
     .div_container_section{
         background-color: rgb(233, 226, 226);
+        padding-left: 5%;
     }
 
     .h2title_section{
@@ -9,19 +10,4 @@
     font-weight: 400;
     padding-top: 25px;
     margin-bottom: 25px;
-}
-
-@media (min-width: 440px) and (max-width: 1154px ) {
-    .div_container_section {
-    padding-left: 5%;
-    }
-}
-
-/* Estilos que se aplicarán a dispositivos móviles o pantallas estrechas */
-
-@media (max-width:440px ) { 
-    .h2title_section{
-        font-size: 18px;
-        padding-left: 5%;
-    }
 }

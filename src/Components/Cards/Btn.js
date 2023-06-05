@@ -15,7 +15,7 @@ const Btn = (props) => {
   return (
     <>
       <button className="quickShop" onClick={handleShow}>
-        Quick Shop
+        Comprar
       </button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

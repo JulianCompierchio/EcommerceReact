@@ -5,7 +5,7 @@ const SocialMedia = () => {
   return (
     <div className='container-fluid social-contenedor'>
       <div className="row">
-        <h2 className='amigo'>Cuentale a un amigo</h2>
+        <h2 className='amigo'>Contale a un amigo</h2>
           <div className="col-12 d-inline-flex justify-content-center social-icons">
             <img src="https://images2.imgbox.com/7a/d6/oU3v8Lcf_o.png" alt="Facebook"/>
             <img src="https://images2.imgbox.com/2c/08/ebIMPWIu_o.png" alt="Instagram"/>
